@@ -1,0 +1,121 @@
+execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:[SC-stand,SC-damage-amount,SF],Invulnerable:1b,Invisible:1b,Small:1b}
+
+# score代入出来ないから列挙
+#==========================================================================================================================================
+execute if entity @s[scores={SC-dummy=1}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"1\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=2}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"2\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=3}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"3\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=4}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"4\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=5}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"5\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=6}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"6\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=7}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"7\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=8}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"8\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=9}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"9\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=10}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"10\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=11}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"11\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=12}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"12\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=13}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"13\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=14}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"14\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=15}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"15\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=16}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"16\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=17}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"17\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=18}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"18\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=19}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"19\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=20}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"20\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=21}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"21\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=22}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"22\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=23}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"23\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=24}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"24\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=25}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"25\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=26}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"26\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=27}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"27\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=28}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"28\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=29}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"29\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=30}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"30\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=31}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"31\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=32}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"32\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=33}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"33\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=34}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"34\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=35}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"35\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=36}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"36\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=37}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"37\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=38}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"38\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=39}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"39\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=40}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"40\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=41}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"41\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=42}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"42\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=43}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"43\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=44}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"44\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=45}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"45\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=46}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"46\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=47}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"47\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=48}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"48\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=49}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"49\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=50}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"50\",\"color\":\"green\"}"}
+execute if entity @s[scores={SC-dummy=51..}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"50+\",\"color\":\"green\"}"}
+
+execute if entity @s[scores={SC-dummy=-1}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"1\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-2}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"2\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-3}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"3\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-4}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"4\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-5}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"5\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-6}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"6\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-7}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"7\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-8}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"8\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-9}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"9\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-10}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"10\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-11}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"11\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-12}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"12\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-13}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"13\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-14}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"14\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-15}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"15\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-16}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"16\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-17}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"17\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-18}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"18\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-19}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"19\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-20}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"20\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-21}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"21\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-22}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"22\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-23}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"23\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-24}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"24\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-25}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"25\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-26}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"26\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-27}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"27\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-28}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"28\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-29}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"29\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-30}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"30\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-31}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"31\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-32}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"32\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-33}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"33\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-34}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"34\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-35}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"35\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-36}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"36\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-37}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"37\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-38}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"38\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-39}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"39\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-40}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"40\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-41}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"41\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-42}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"42\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-43}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"43\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-44}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"44\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-45}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"45\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-46}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"46\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-47}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"47\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-48}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"48\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-49}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"49\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=-50}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"50\",\"color\":\"red\"}"}
+execute if entity @s[scores={SC-dummy=..-51}] run data merge entity @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] {CustomNameVisible:1b,CustomName:"{\"bold\":true,\"text\":\"50+\",\"color\":\"red\"}"}
+
+#==========================================================================================================================================
+
+# アマスタのMotionを変更
+execute as @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] run function scouter:stand/random-motion/damage-amount/set
+
+# アマスタの生存時間をtickで設定
+scoreboard players set @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] SC-counter 15
+
+# 処理済みのアマスタにtag付けして競合を防ぐ
+tag @e[tag=SC-stand,tag=SC-damage-amount,tag=!processed,sort=nearest,limit=1] add processed
+
+# SC-health-entityを更新
+execute store result score @s SC-health-entity run data get entity @s Health
