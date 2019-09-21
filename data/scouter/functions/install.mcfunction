@@ -1,7 +1,4 @@
 # add objectives
-scoreboard objectives add SC-version dummy
-scoreboard objectives add SC-buffer dummy
-
 #dummy
 scoreboard objectives add SC-dummy dummy
 scoreboard objectives add SC-dummy-2 dummy
@@ -19,9 +16,3 @@ scoreboard objectives add SC-health-entity dummy
 scoreboard players set #4 SC-dummy 4
 
 #============================================================
-# スポーンチャンクを変更し、データ格納用アマスタを召喚
-setworldspawn 0 0 0
-summon minecraft:armor_stand 0 0 0 {Tags:[SC-main-stand],Marker:1b,Invisible:1b,NoGravity:1b}
-
-# アマスタにデータを格納する
-scoreboard players set @e[tag=SC-main-stand] SC-version 1

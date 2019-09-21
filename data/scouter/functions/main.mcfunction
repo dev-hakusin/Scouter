@@ -1,5 +1,12 @@
 # 毎tick実行されるfunction
 #=====================================================
+# player
+
+## login
+execute if entity @a[scores={SC-leave-game=1..}] as @a[scores={SC-leave-game=1..}] run function scouter:player-login
+
+
+#=====================================================
 # entity main
 function scouter:entity/main
 
@@ -7,5 +14,3 @@ function scouter:entity/main
 execute if entity @e[tag=SC-stand] as @e[tag=SC-stand] run function scouter:stand/main
 
 #=====================================================
-# buffer (必ず最後)
-execute if entity @e[tag=SC-buffer] as @e[tag=SC-buffer] run function scouter:buffer
