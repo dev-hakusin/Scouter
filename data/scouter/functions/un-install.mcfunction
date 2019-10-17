@@ -8,6 +8,7 @@ scoreboard objectives remove SC-counter
 
 #player
 scoreboard objectives remove SC-leave-game
+scoreboard objectives remove SC-sneak-time
 
 #entity
 scoreboard objectives remove SC-health-entity

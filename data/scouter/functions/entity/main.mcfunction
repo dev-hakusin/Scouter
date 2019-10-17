@@ -7,7 +7,6 @@ execute if entity @e[type=wither,tag=!SC-boss-entity] as @e[type=wither,tag=!SC-
 
 # SC-entityの付近にプレイヤーがいる場合に、表示関連の処理を行う
 # AECの名前はプレイヤーが8ブロック以内にいないと見えないっぽい(クライアント設定次第？)
-execute if entity @e[tag=SC-entity] as @e[tag=SC-entity] at @s if entity @e[type=player,distance=..10] run function scouter:entity/near-player
-
+execute if entity @e[tag=SC-entity] as @e[tag=SC-entity] at @s if entity @e[type=player,distance=..10,tag=has-scouter] run function scouter:entity/near-player
 # SC-boss-entity用
-execute if entity @e[tag=SC-boss-entity] as @e[tag=SC-boss-entity] at @s if entity @e[type=player,distance=..15] run function scouter:entity/boss-hp
+execute if entity @e[tag=SC-boss-entity] as @e[tag=SC-boss-entity] at @s if entity @e[type=player,distance=..15,tag=has-scouter] run function scouter:entity/boss-hp

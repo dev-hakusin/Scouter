@@ -8,6 +8,7 @@ scoreboard objectives add SC-counter dummy
 
 #player
 scoreboard objectives add SC-leave-game minecraft.custom:minecraft.leave_game
+scoreboard objectives add SC-sneak-time minecraft.custom:minecraft.sneak_time
 
 #entity
 scoreboard objectives add SC-health-entity dummy

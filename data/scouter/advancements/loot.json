@@ -1,15 +1,16 @@
 {
 	"display":{
 		"icon":{
-			"item":"ender_eye"
+			"item":"feather",
+			"nbt":"{CustomModelData:1}"
 		},
 		"title":{
-			"text":"スカウター 1.0"
+			"text":"Scouter v1.1"
 		},
 		"description":{
-			"text":"機能一覧: \n・MOBの体力の割合\n・MOBの体力変化\n以上を表示する\n\n作者: yuki_256"
+			"text":"created by yuki_256"
 		},
-		"background":"minecraft:textures/block/dirt.png",
+		"background":"minecraft:textures/block/quartz_block_top.png",
 		"show_toast":false,
 		"announce_to_chat":false
 		},
